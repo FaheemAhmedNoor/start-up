@@ -1,0 +1,14 @@
+<svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.203869" width="55" height="55" rx="14" fill="#5080F4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.4754 42.025C35.6589 42.025 39.0504 38.6336 39.0504 34.45C39.0504 30.2664 35.6589 26.875 31.4754 26.875C27.2918 26.875 23.9004 30.2664 23.9004 34.45C23.9004 38.6336 27.2918 42.025 31.4754 42.025Z" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M36.8754 39.85C36.5004 40.225 35.9004 40.675 35.5254 40.9L39.5004 44.875C40.1004 45.475 41.2254 45.475 41.8254 44.8C42.4254 44.125 42.5004 43.075 41.9004 42.475L37.9254 38.5C37.7754 38.875 37.2504 39.4 36.8754 39.85Z" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.2754 39.85V18.925L31.0254 10.675H14.9004C14.4504 10.675 14.1504 11.05 14.1504 11.425V43.075C14.1504 43.525 14.5254 43.825 14.9004 43.825H38.5254" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.7754 18.925H39.2754L31.0254 10.675V18.175C31.0254 18.625 31.4004 18.925 31.7754 18.925Z" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.5 29.5H24.5" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.5 33.25H23" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18.5 37H23.75" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.5 31.75H31.25" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24.5 35.5H31.25" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M25.0256 20.95C25.4006 20.425 25.6256 19.75 25.4756 19C25.3256 18.175 24.6506 17.575 23.8256 17.35C22.4006 16.975 21.1256 18.1 21.1256 19.525C21.1256 20.05 21.2756 20.575 21.5756 20.95C21.8006 21.25 21.7256 21.7 21.3506 21.85C20.2256 22.45 19.4006 23.575 19.1756 24.925C19.1006 25.3 19.4006 25.6 19.7756 25.6H26.7506C27.1256 25.6 27.4256 25.3 27.3506 24.925C27.1256 23.575 26.3006 22.45 25.1756 21.85C24.8756 21.625 24.7256 21.175 25.0256 20.95Z" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="18.5" y="14.5" width="9" height="10.5" stroke="#0066FF" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
