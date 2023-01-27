@@ -1,0 +1,106 @@
+<header class='header' data-controller='header' data-target='header.header page.header'>
+  <div class='background' data-target='page.headerBackground header.background'></div>
+    <div class='content'>
+      <div class='logo' data-target='header.logo'>
+        <a href="/">
+          <%= image_tag "logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg", alt: "Download file", class: "", title: "", style: 'height:45px;width:auto;' %>
+        </a>
+      </div>
+
+      <div class='right'>
+        <ul class='nav ' data-target='page.headerText header.menu'>
+            <li class='nav__item'>
+              <%= link_to  "Services", homes_services_path %>
+              <%# <a href="/en/services">Services
+              </a> %>
+            </li>
+            <li class='nav__item'>
+              <%= link_to  "Case Studies", homes_case_studies_path %>
+              <%# <a href="/en/case-studies">Case studies
+              </a> %>
+            </li>
+            <li class='nav__item dropdown'>
+              <a data-action="click-&gt;header#toggleSubmenu" href="#">
+                  Workflow
+                  <div class='chevron-down' data-target='header.chevronDown'>
+                    <div class='left-stroke' data-target='page.headerArrow'></div>
+                    <div class='right-stroke' data-target='page.headerArrow'></div>
+                  </div>
+              </a>
+              <div class='subnav workflow' data-target='page.headerSubnav header.subnav'>
+                  <a class="subnav-item" data-controller="subnavbar_item" href="mvp">
+                    <h3 class='subnav-item__title'>
+                        <div class='subnav-item__image'>
+                          <%= image_tag "menu_building-c90a9740dcf5f2e2813b4789f96d57e7.svg", alt: "Download file", class: "", title: "", style: 'height:50px;width:auto;' %>
+                        </div>
+                        Startup Building MVP
+                    </h3>
+                    <p class='subnav-item__description'>
+                        See how quickly we turn startup ideas into validated real life products.
+                    </p>
+                  </a>
+                  <a class="subnav-item" data-controller="subnavbar_item" href="agile">
+                    <h3 class='subnav-item__title'>
+                        <div class='subnav-item__image'>
+                          <%= image_tag "menu_hire-dcda38fa58f17ccd43c08f3414c89ec1.svg", alt: "Download file", class: "", title: "", style: 'height:50px;width:auto;' %>
+
+                          <img style="height:20;width:20" alt="" src="/packs/media/images/home/menu_hire-dcda38fa58f17ccd43c08f3414c89ec1.svg" />
+                        </div>
+                        Agile Product Scaling Team
+                    </h3>
+                    <p class='subnav-item__description'>
+                        Review technology, set a roadmap and scale up with your dedicated team.
+                    </p>
+                  </a>
+                  <a class="subnav-item" data-controller="subnavbar_item" href="digital_transformation">
+                    <h3 class='subnav-item__title'>
+                        <div class='subnav-item__image'>
+                          <%= image_tag "menu_innovation-26aa14e4ea15b8d2b2f1169f7a86f335.svg", alt: "Download file", class: "", title: "", style: 'height:50px;width:auto;' %>
+
+                        </div>
+                        Corporate Digital Transformation
+                    </h3>
+                    <p class='subnav-item__description'>
+                        Generate innovations and improve internal processes in the digital age.
+                    </p>
+                  </a>
+                  <div class='subnav__menu-mask'></div>
+              </div>
+            </li>
+            <li class='nav__item'>
+              <%= link_to  "Resources", homes_resource_path %>
+              </a>
+            </li>
+            <li class='nav__item'>
+              <%= link_to  "Blog", homes_blog_path %>
+              </a>
+            </li>
+            <li class='nav__item'>
+              <%= link_to  "Contact", homes_contact_path %>
+              </a>
+            </li>
+        </ul>
+        <div class='value-project-button-wrapper ' data-target='header.valueProjectButton page.headerButtonBackground'>
+
+            <a class="button icon-button dollar " type="button" href="/homes/price_estimate" style="background-color: #0066ff; color: #ffffff">
+              <span class='text'>
+              <span data-target='page.headerButtonText'>
+              Price estimate
+              </span>
+              </span>
+              <div class='icon-wrapper' style='border-bottom-color: #ffffff'>
+                  <span class='icon'>
+                  $
+                  </span>
+              </div>
+            </a>
+        </div>
+
+        <div class='toggle' data-action='click-&gt;header#toggleMenuByButton' data-target='header.toggle'>
+          <span class='top' data-target='page.headerButtonStripe'></span>
+          <span class='middle' data-target='page.headerButtonStripe'></span>
+          <span class='bottom' data-target='page.headerButtonStripe'></span>
+        </div>
+      </div>
+  </div>
+</header>

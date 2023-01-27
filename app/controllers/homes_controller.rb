@@ -1,0 +1,15 @@
+class HomesController < ApplicationController
+  def index; end
+
+  def resource; end
+
+  def contact; end
+
+  def blog; end
+
+  def services; end
+
+  def digital_transformation; end
+
+  def case_studie; end
+end
