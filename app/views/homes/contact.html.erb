@@ -1,0 +1,380 @@
+
+
+  <body class='hide-text'>
+
+    <noscript>
+      <iframe height='0' src='../../www.googletagmanager.com/ns_cbd1863e.html' style='display:none;visibility:hidden' width='0'></iframe>
+    </noscript>
+    <main class="page contact" data-controller="page" data-lazy="true">
+      <section class="section no-padding white" data-target="page.section" data-theme="white"></section>
+      <section class="section no-padding contact black horizontal" data-theme="black" data-target="page.section" style="background-color:white !important;">
+        <div class="row between-lg" data-target="page.loadOnScroll">
+          <section class="contact-form white " data-target="page.section" data-theme="white" data-snap="">
+            <div class="content" data-controller="contact_form" data-contact_form-site-key="8bc25273-3edd-41a2-931b-f899bd498f24" data-contact_form-show-heard-about="true">
+              <div class="form-wrapper">
+                <div class="text-wrapper" data-target="contact_form.textWrapper">
+                  <h1 class="contact-form__title" data-target="page.loadOnScroll" style="color:black !important; font-size: 3.35rem;">
+                    Contact us
+                  </h1>
+                  <p class="contact-form__description" data-target="page.loadOnScroll">
+                    <span class="hidden-lg-down">Let&#39;s talk about your idea – fill out the form on the right and we'll&#39; get back to you shortly. We can&#39;t wait to start working with you! </span>
+                    <span class="hidden-lg-up">Let&#39;s talk about your ____ – fill out the ____ below and we&#39;ll get ____ to you shortly. We ___&#39;_ wait to start working ____ you! </span>
+                  </p>
+                  <p class="contact-form__drop-line" data-target="page.loadOnScroll">
+                    Or drop us a line at
+                    <a href="mailto:sales@start-up.house">
+                    sales@start-up.house
+                    </a>
+                  </p>
+                </div>
+                <form class="form" data-target="contact_form.form">
+                  <h2 class="form__title" data-target="page.loadOnScroll">
+                    Fill out the form
+                  </h2>
+                  <div class="input-wrapper" data-target="contact_form.name page.loadOnScroll">
+                    <label for="contact-form-name" class="sr-only">Full name </label>
+                    <input id="contact-form-name" class="form__input" name="fullname" type="text" placeholder="Full name" data-action="blur->contact_form#validateTextInput" />
+                  </div>
+                  <div class="input-wrapper" data-target="contact_form.email page.loadOnScroll">
+                    <label for="contact-form-email" class="sr-only">Email address </label>
+                    <input id="contact-form-email" class="form__input" name="email" type="text" placeholder="Email address" data-action="blur->contact_form#validateEmailInput" />
+                  </div>
+
+                  <div class="input-wrapper" data-target="contact_form.content page.loadOnScroll">
+                    <label for="contact-form-message" class="sr-only">Message </label>
+                    <textarea id="contact-form-message" class="form__input" name="message" rows="5" placeholder="Message" data-action="blur->contact_form#validateTextInput"></textarea>
+                  </div>
+                  <div class="form__bottom-row files" data-target="page.loadOnScroll">
+                    <div class="files-upload" data-target="contact_form.file" data-controller="files_upload">
+                      <label class="files-upload__label" for="upload">
+                        <svg class="files-upload__icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewbox="0 0 36 36">
+                          <g fill="none" fill-rule="evenodd">
+                            <circle cx="18" cy="18" r="18" fill="#06F" opacity=".201"></circle>
+                            <path stroke="#06F" stroke-linecap="round" stroke-linejoin="round" d="M23.253 17.366l-4.353 7.54c-1.09 1.886-3.523 2.52-5.436 1.415-1.913-1.105-2.581-3.53-1.492-5.416l6.526-11.303c.83-1.437 2.684-1.92 4.141-1.078 1.457.841 1.966 2.688 1.137 4.125l-6.53 11.309c-.589 1.02-1.906 1.363-2.942.765-1.036-.598-1.397-1.91-.808-2.93l6.031-10.448"></path>
+                          </g>
+                        </svg>
+                        Add file
+                        <span class="files-upload__support-info">
+                        Supported formats: .pdf, .jpg, .png
+                        </span>
+                        <input class="files-upload__input" id="upload" type="file" name="file" ,="" accept="application/pdf, image/png, image/jpeg" data-action="change->files_upload#populateFilesContainer" data-target="files_upload.fileInput" />
+                      </label>
+                      <div class="uploaded-files-container" data-target="files_upload.filesContainer">
+                      </div>
+                    </div>
+                    <div class="captcha-container input-wrapper" data-target="contact_form.captcha">
+                      <div id="captcha-contact_form"></div>
+                    </div>
+                    <button class="button icon-button send " type="button" id="contact-send-button" style="background-color: #0066ff; color: #ffffff" data-action="click-&gt;contact_form#submit" data-target="contact_form.submitButton">
+                      <span class='text'>
+                      Send message
+                      </span>
+                      <div class='icon-wrapper' style='border-bottom-color: #ffffff'>
+                        <span class='icon'>
+                        <span class='send-icon'></span>
+                        <span class='arrow-right'></span>
+                        </span>
+                      </div>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="thank-you" data-target="contact_form.confirmation">
+                <div class="thank-you__image hidden-md-up">
+                  <img class="lazy-image" alt="Eagle has landed" data-src="../packs/media/images/contact/eagle_has_landed-bdb8da497d7cb33be3487b072d0b5d0b.png" src="contact.html" />
+                </div>
+                <div class="thank-you__info">
+                  <h2 class="thank-you__title">Houston, <br />the eagle has landed! </h2>
+                  <p class="thank-you__text"> We’ll reply as ____ as possible. <br />Meanwhile, take a look __ our recent works: </p>
+                  <a class='arrow-button  ' href='case-studies.html' id='' rel='' style='background-color: #0066ff; color: #ffffff; border-color: transparent' target=''>
+                  <span class='arrow arrow--left'>
+                  <span class='shaft' style='background-color: #ffffff'></span>
+                  </span>
+                  <span class='main'>
+                  <span class='text'>
+                  See projects
+                  </span>
+                  <span class='arrow arrow--right'>
+                  <span class='shaft' style='background-color: #ffffff'></span>
+                  </span>
+                  </span>
+                  </a>
+                </div>
+                <div class="thank-you__image hidden-md-down">
+                  <img class="lazy-image" alt="Eagle has landed" data-src="../packs/media/images/contact/eagle_has_landed-bdb8da497d7cb33be3487b072d0b5d0b.png" src="contact.html" />
+                </div>
+              </div>
+              <div class="thank-you__loader" data-target="contact_form.confirmationLoader">
+                <div class="loader-5 center"><span></span></div>
+              </div>
+            </div>
+            <div class="contact-form__divider" data-target="page.loadOnScroll">
+              <div class="contact-form__divider-inner">
+                <span>
+                OR
+                </span>
+              </div>
+            </div>
+          </section>
+          <section class="section calendly no-padding contact__calendly" "="" data-controller="calendly" data-target="page.section" data-theme="black" data-bgcolor="#222326" data-color="#fff">
+            <div class="section-content">
+              <div class="calendly__wrapper">
+                <div class="content">
+                  <h2 class="content__title" data-target="page.loadOnScroll">Schedule a meeting </h2>
+                  <p class="content__description" data-target="page.loadOnScroll">Do you have a specific question or want to discuss a project? Schedule a call with one of our Business Development Representatives and tell us about your ideas. </p>
+                  <div class="calendly__contact-person" data-target="page.loadOnScroll">
+                    <div class="calendly__contact-person-text">
+                    </div>
+                  </div>
+                </div>
+                <div class="calendly__widget" data-target="page.loadOnScroll">
+                  <div class="calendly-inline-widget" style="position: relative;min-width:320px;height:750px;" data-auto-load="false">
+                    <div class="calendly__widget-inner" data-target="calendly.inlineWidget" data-href="https://calendly.com/d/ds3-hj2-x23/intro-call-with-startup-house"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+
+
+      <section class='section white info-panel' data-animate='' data-target='page.section' data-theme='white'>
+        <div class='section-content'>
+          <div class='row'>
+            <div class='col'>
+              <h2 class='info-panel__title' data-target='page.loadOnScroll'>
+                We are here for you. Say hi!
+              </h2>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-xs-24 col-sm-12 col-lg-6 info-column info-column--office' data-target='page.loadOnScroll'>
+              <h4 class='info-column__title'>
+                Our office
+              </h4>
+              <p class='info-column__description'>Al. Niepodległości 124/23 floor 7 <br />Warsaw 02-577 <br />Poland </p>
+              <a class="button icon-button map " type="button" href="https://www.google.pl/maps/place/Startup+Development+House+sp.+z+o.o./@52.2031133,21.0083733,17z/data=!3m1!4b1!4m5!3m4!1s0x471eccde440b5e5f:0x4cc3ece3922f7bd!8m2!3d52.20311!4d21.010562" style="background-color: #0066ff; color: #ffffff" target="__blank">
+                <span class='text'>
+                View on map
+                </span>
+                <div class='icon-wrapper' style='border-bottom-color: #ffffff'>
+                  <span class='icon'>
+                  <span class='map-icon'></span>
+                  <span class='arrow-right'></span>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <div class='col-xs-24 col-sm-12 col-lg-6 info-column info-column--payment' data-target='page.loadOnScroll'>
+              <h4 class='info-column__title'>
+                Payment info
+              </h4>
+              <p class='info-column__description'>Startup Development House sp. _ o.o. <br />Aleja Niepodległości 124/23 <br /> Warsaw 02-577 </p>
+              <span class='info-column__description id'>
+              VAT-ID: 5213739631
+              </span>
+              <span class='info-column__description id'>
+              KRS: 0000624654
+              </span>
+              <span class='info-column__description id'>
+              REGON: 364787848
+              </span>
+            </div>
+            <div class='col-xs-24 col-sm-12 col-lg-6 info-column info-column--join' data-target='page.loadOnScroll'>
+              <h4 class='info-column__title'>
+                Join Startup House
+              </h4>
+              <p class='info-column__description'>We have some opened positions. You should check them! </p>
+              <a class='arrow-button  contact-view-careers' href='https://careers.start-up.house/' id='' rel='' style='background-color: #0066ff; color: #ffffff; border-color: transparent' target=''>
+              <span class='arrow arrow--left'>
+              <span class='shaft' style='background-color: #ffffff'></span>
+              </span>
+              <span class='main'>
+              <span class='text'>
+              View
+              </span>
+              <span class='arrow arrow--right'>
+              <span class='shaft' style='background-color: #ffffff'></span>
+              </span>
+              </span>
+              </a>
+            </div>
+            <div class='col-xs-24 col-sm-12 col-lg-6 info-column info-column--anything-else' data-target='page.loadOnScroll'>
+              <h4 class='info-column__title'>
+                Anything else?
+              </h4>
+              <a class='info-column__link' href='mailto:office@start-up.house'>
+              office@start-up.house
+              </a>
+              <a class='info-column__link' href='tel:+48 798 874 852'>
+              <span>Marek Pałys: </span>
+              <span class='phone-number'>+48 798 874 852 </span>
+              </a>
+              <a class='info-column__link' href='tel:+48 662 348 115'>
+              <span>Alexander Stasiak: </span>
+              <span class='phone-number'>+48 662 348 115 </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <div class="modal invisible" id="modal-1" data-controller="lead_magnet" data-lead_magnet-site-key="8bc25273-3edd-41a2-931b-f899bd498f24" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close="">
+        <div class="row modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+          <div class="col-xs-24 col-md-11 last-md modal__contents modal__contents--right">
+            <button class="modal__close" aria-label="Close modal" data-micromodal-close="">
+              <div class="close-icon">
+                <span class="close-icon__dash close-icon__dash--left"></span>
+                <span class="close-icon__dash close-icon__dash--right"></span>
+              </div>
+            </button>
+            <picture>
+              <source srcset="../packs/media/images/lead_magnet/ebook-mockup-0a0b06048bd2e4853da1e8bd1b5b0f85.webp" type="image/webp">
+              <source srcset="../packs/media/images/lead_magnet/ebook-mockup-9cb4257f96366500c68125886283d4ff.png" type="image/png">
+              <img style="width:416;height:566" alt="Ebook cover mockup" src="../packs/media/images/lead_magnet/ebook-mockup-9cb4257f96366500c68125886283d4ff.png" />
+              </source></source>
+            </picture>
+          </div>
+          <div class="col-xs-24 col-md-13 modal__contents modal__contents--left" id="modal-1-content">
+            <div class="modal__loader" data-target="lead_magnet.modalLoader">
+              <div class="loader-5 center"><span></span></div>
+            </div>
+            <div class="modal__logo hidden-md-down">
+              <img data-target="page.headerLogo" alt="Startup Development House" src="../packs/media/images/home/logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg" />
+            </div>
+            <div class="modal__info" data-target="lead_magnet.info">
+              <h2 class="modal__title" id="modal-1-title">Get the guidance adjusted __ your startups’ needs </h2>
+              <p class="modal__description">Download one of our _____ to learn more about ___ we solve startups’ problems - depending on the stage __ development and available finances. </p>
+            </div>
+            <form class="modal__form" data-target="lead_magnet.form">
+              <div class="input-wrapper" data-target="lead_magnet.guidebook">
+                <label for="modal-form-guidebook" class="sr-only">Select your guidebook </label>
+                <select id="modal-form-guidebook" class="form__input" name="guidebook" placeholder="Role" data-action="">
+                  <option value="" disabled="" selected="" />Select your guidebook
+                  <option value="sxsw-early-stage-startup" />
+                    Pre-seed
+                  <option value="sxsw-seed-startup" />
+                    Seed
+                  <option value="sxsw-series-a-scaleup" />
+                    Series A+
+                </select>
+              </div>
+              <div class="input-wrapper" data-target="lead_magnet.name">
+                <label for="modal-form-name" class="sr-only">Full Name </label>
+                <input id="modal-form-name" class="form__input" name="fullname" type="text" placeholder="Full Name" data-action="blur->lead_magnet#validateTextInputNoMessage" />
+              </div>
+              <div class="row second-row">
+                <div class="column input-wrapper col-xs-24 col-md-12" data-target="lead_magnet.role">
+                  <label for="role" class="sr-only">Role </label>
+                  <select id="modal-form-role" class="form__input" name="role" placeholder="Role" data-action="">
+                    <option value="" disabled="" selected="" />Role
+                    <option value="CEO/ Founder" />
+                      CEO/ Founder
+                    <option value="CTO" />
+                      CTO
+                    <option value="Product Owner/ Head of Product" />
+                      Product Owner/ Head of _______
+                    <option value="Developer/ Engineer" />
+                      Developer/ Engineer
+                    <option value="Project Manager" />
+                      Project Manager
+                    <option value="Product Designer" />
+                      Product Designer
+                    <option value="Innovation Manager" />
+                      Innovation Manager
+                    <option value="Other" />
+                      Other
+                  </select>
+                </div>
+                <div class="column input-wrapper col-md-12" data-target="lead_magnet.company">
+                  <label for="modal-form-company" class="sr-only">Company </label>
+                  <input id="modal-form-company" class="form__input" name="company" type="text" placeholder="Company" data-action="blur->lead_magnet#validateTextInputNoMessage" />
+                </div>
+              </div>
+              <div class="row third-row">
+                <div class="column input-wrapper col-xs-24 col-md-14" data-target="lead_magnet.email">
+                  <label for="modal-form-email" class="sr-only">E-mail </label>
+                  <input id="modal-form-email" class="form__input" name="email" type="text" placeholder="E-mail" data-action="blur->lead_magnet#validateEmailInputNoMessage" />
+                </div>
+                <div class="column col-xs-24 col-md-10">
+                  <button class="button icon-button send " type="submit" id="download-ebook-send-button" style="background-color: #0066ff; color: #ffffff" data-action="click-&gt;lead_magnet#submit" data-target="lead_magnet.submitButton">
+                    <span class='text'>
+                    Send
+                    </span>
+                    <div class='icon-wrapper' style='border-bottom-color: #ffffff'>
+                      <span class='icon'>
+                      <span class='send-icon'></span>
+                      <span class='arrow-right'></span>
+                      </span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+              <div class="agreement">
+                <div class="agreement__checkbox input-wrapper pretty p-default p-curve p-fill" data-target="lead_magnet.agreement">
+                  <input id="modal-form-agreement" class="form__input" name="agreement" type="checkbox" />
+                  <div class="state p-primary">
+                    <label for="modal-form-agreement">
+                    <span>
+                    I agree to receive ___ newsletter and commercial information ____ Startup Development House
+                    <a href="privacy-policy.html">Read more </a>
+                    </span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="captcha-row">
+                <div class="captcha-container input-wrapper" data-target="lead_magnet.captcha">
+                  <div id="captcha-lead_magnet"></div>
+                </div>
+              </div>
+              <div class="error-message invisible">
+                <img style="width:20;height:20" class="error-message-icon" alt="" src="../packs/media/images/lead_magnet/error-87fc2677d45527aac8691f55364a3e36.svg" />
+                <span class="error-message-text">
+                Please fill all required ______
+                </span>
+              </div>
+            </form>
+            <div class="invisible download-section " data-target="lead_magnet.downloadSection">
+              <div class="modal__info" data-target="lead_magnet.info">
+                <h2 class="modal__title modal__title--download">Thank you for your __________. </h2>
+                <p class="modal__description modal__description--download">Please check your email ___. Enjoy our guide! </p>
+              </div>
+              <a class="button icon-button download " type="button" href="contact.html" id="download-ebook-button" style="background-color: #0066ff; color: #ffffff" data-target="lead_magnet.downloadButton" download="">
+                <span class='text'>
+                Download guide
+                </span>
+                <div class='icon-wrapper' style='border-bottom-color: #ffffff'>
+                  <span class='icon'>
+                  <span class='shaft' style='background-color: #ffffff'></span>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      _linkedin_partner_id = "458204";
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script>
+      (function(){var s = document.getElementsByTagName("script")[0];
+      var b = document.createElement("script");
+      b.type = "text/javascript";b.async = true;
+      b.src = "../../snap.licdn.com/li.lms-analytics/insight.min.js";
+      s.parentNode.insertBefore(b, s);})();
+    </script>
+    <noscript>
+      <img alt='' height='1' src='https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fpid%3D458204%26fmt%3Dgif%26cookiesTest%3Dtrue%26liSync%3Dtrue' style='display:none;' width='1' />
+    </noscript>
+    <script type="text/javascript">if(document){var search=window.location.search.substring(1);if(search.length){var urlParams=JSON.parse('{"'+decodeURI(search).replace(/"/g,'\\"').replace(/&/g,'","').replace(/=/g,'":"')+'"}'),cookie="";urlParams.utm_source&&(document.cookie="utm_source="+urlParams.utm_source+";path=/"),urlParams.utm_medium&&(document.cookie="utm_medium="+urlParams.utm_medium+";path=/"),urlParams.utm_campaign&&(document.cookie="utm_campaign="+urlParams.utm_campaign+";path=/"),urlParams.utm_content&&(document.cookie="utm_content="+urlParams.utm_content+";path=/"),urlParams.fbclid&&(document.cookie="utm_source=facebook"+";path=/")}}</script>
+    <noscript>
+      <img height='1' src='../../www.facebook.com/tr_3bba785a' style='display:none' width='1' />
+    </noscript>
