@@ -12,4 +12,7 @@ class HomesController < ApplicationController
   def digital_transformation; end
 
   def case_studie; end
+
+  def product_discovery_process; end
+
 end
