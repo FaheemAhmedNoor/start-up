@@ -206,7 +206,10 @@
       </div>
       <div class="footer-new__details-right">
         <div class="legal-links">
-          <a class="legal-links__link" href="privacy-policy.html">Privacy Policy </a>
+
+          <%= link_to  "Privacy Policy", homes_privacy_policy_path, class:"legal-links__link" %>
+
+          <%# <a class="legal-links__link" href="privacy-policy.html">Privacy Policy </a> %>
           <a class="legal-links__link" href="eu-projects.html">EU Projects </a>
         </div>
         <ul class="socials">
