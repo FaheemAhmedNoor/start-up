@@ -1,280 +1,262 @@
- <footer class="footer-new section no-padding" data-controller="footer aboutContentController">
- <div class="footer-new__wrapper">
- <div class="footer-new__main">
- <div class="footer-new__intro">
+<footer class="footer-new section no-padding" data-controller="footer aboutContentController">
+  <div class="footer-new__wrapper">
+    <div class="footer-new__main">
+      <div class="footer-new__intro">
+        <%= image_tag "logo-rocket-8ff4f892f0571e8b9b90b8b864a88a03.svg", alt:"Map marker"%>
+        <h2 class="footer-new__title">We build startups from scratch. </h2>
+        <div class="divider"></div>
+        <div class="contact">
+          <h3 class="heading-secondary">Contact Us </h3>
+          <p class="contact__paragraph"> Our office: +48 789 011 336  <br /> New business: +48 798 874 852  </p>
+          <a class="contact__paragraph" href="mailto:hello@start-up.house">hello@start-up.house </a>
+          <h3 class="heading-secondary contact__heading">Meet us in </h3>
+          <p class="contact__paragraph"> <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+            Warsaw, Poland
+          </p>
+        </div>
+      </div>
+      <div class="divider divider--mobile"></div>
+      <div class="links">
+        <div class="links__column">
+          <div class="links-group">
+            <h3 class="heading">Company </h3>
+            <%= link_to  "Case Studies", homes_case_studies_path, class:"link" %>
+            <%= link_to  "Blog", homes_blog_path, class:"link" %>
+            <%= link_to  "Contact", homes_contact_path, class:"link" %>
+            <%= link_to  "Price Estimate", homes_price_estimate_path, class:"link" %>
+            <%= link_to  "About us", homes_price_estimate_path, class:"link" %>
+            <a class="link hide-desktop" href="services.html">
+            All Services
+            </a>
+          </div>
+          <div class="links-group">
+            <h3 class="heading">Resources </h3>
+            <a class="link " href="sustainable-canva.html">
+            Impact Map Canva
+            </a>
+          </div>
+        </div>
+        <div class="links__column links__column--desktop">
+          <div class="links-group">
+            <h3 class="heading">Services </h3>
+            <a class="link " href="services/workshops-and-prototyping.html">
+            Product Discovery Process
+            </a>
+            <a class="link " href="services/design.html">
+            Product Design
+            </a>
+            <a class="link " href="services/web-development.html">
+            Web Development
+            </a>
+            <a class="link " href="services/mobile-development.html">
+            Mobile Development
+            </a>
+            <a class="link " href="services/user-testing.html">
+            User Testing
+            </a>
+            <a class="link " href="services/quality-assurance.html">
+            Quality Assurance
+            </a>
+            <a class="link " href="services/cloud-software-development.html">
+            Cloud Application
+            </a>
+            <a class="link " href="services/scrum-team-augmentation.html">
+            Scrum Team Augmentation
+            </a>
+            <a class="link " href="services/mvp-development.html">
+            MVP Development
+            </a>
+            <a class="link " href="services.html">
+            All Services
+            </a>
+          </div>
+        </div>
+        <div class="links__column links__column--reversed">
+          <div class="links-group">
+            <h3 class="heading">Technologies </h3>
+            <a class="link " href="technologies/rails.html">
+            Ruby On Rails
+            </a>
+            <a class="link " href="technologies/angular.html">
+            Angular
+            </a>
+            <a class="link " href="technologies/react.html">
+            React
+            </a>
+            <a class="link " href="technologies/react-native.html">
+            React Native
+            </a>
+            <a class="link " href="technologies/nodejs.html">
+            Node.js
+            </a>
+          </div>
+          <div class="links-group">
+            <h3 class="heading">Workflow </h3>
+            <%= link_to  "Startup MVP", homes_mvp_path, class:"link" %>
+            <%# <a class="link " href="workflow/agile.html">
+            Agile Product Scaling
+            </a> %>
+            <%= link_to  "Agile Product Scaling", homes_agile_path, class:"link" %>
+            <%# <a class="link " href="workflow/digital-transformation.html">
+            Corporate Digital Transformation
+            </a> %>
+            <%= link_to  "Corporate Digital Transformation", homes_digital_transformation_path, class:"link" %>
 
-
- <%= image_tag "logo-rocket-8ff4f892f0571e8b9b90b8b864a88a03.svg", alt:"Map marker"%>
- <h2 class="footer-new__title">We build startups from scratch. </h2>
- <div class="divider"></div>
- <div class="contact">
- <h3 class="heading-secondary">Contact Us </h3>
- <p class="contact__paragraph"> Our office: +48 789 011 336  <br /> New business: +48 798 874 852  </p>
- <a class="contact__paragraph" href="mailto:hello@start-up.house">hello@start-up.house </a>
- <h3 class="heading-secondary contact__heading">Meet us in </h3>
- <p class="contact__paragraph"> <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- Warsaw, Poland </p>
- </div>
- </div>
- <div class="divider divider--mobile"></div>
- <div class="links">
- <div class="links__column">
- <div class="links-group">
- <h3 class="heading">Company </h3>
- <a class="link " href="case-studies.html">
-Case studies
- </a>
- <a class="link " href="https://careers.start-up.house/">
-Careers
- <span class="badge">We&#39;re hiring </span>
- </a>
- <a class="link " href="blog.html">
-Blog
- </a>
- <a class="link " href="contact.html">
-Contact us
- </a>
- <a class="link " href="price-estimate.html">
-Price Estimate
- </a>
- <a class="link " href="about-us.html">
-About us
- </a>
- <a class="link hide-desktop" href="services.html">
-All Services
- </a>
- </div>
- <div class="links-group">
- <h3 class="heading">Resources </h3>
- <a class="link " href="https://srs.start-up.house/">
-SRS
- </a>
- <a class="link " href="sustainable-canva.html">
-Impact Map Canva
- </a>
- </div>
- </div>
- <div class="links__column links__column--desktop">
- <div class="links-group">
- <h3 class="heading">Services </h3>
- <a class="link " href="services/workshops-and-prototyping.html">
-Product Discovery Process
- </a>
- <a class="link " href="services/design.html">
-Product Design
- </a>
- <a class="link " href="services/web-development.html">
-Web Development
- </a>
- <a class="link " href="services/mobile-development.html">
-Mobile Development
- </a>
- <a class="link " href="services/user-testing.html">
-User Testing
- </a>
- <a class="link " href="services/quality-assurance.html">
-Quality Assurance
- </a>
- <a class="link " href="services/cloud-software-development.html">
-Cloud Application
- </a>
- <a class="link " href="services/scrum-team-augmentation.html">
-Scrum Team Augmentation
- </a>
- <a class="link " href="services/mvp-development.html">
-MVP Development
- </a>
- <a class="link " href="services.html">
-All Services
- </a>
- </div>
- </div>
- <div class="links__column links__column--reversed">
- <div class="links-group">
- <h3 class="heading">Technologies </h3>
- <a class="link " href="technologies/rails.html">
-Ruby On Rails
- </a>
- <a class="link " href="technologies/angular.html">
-Angular
- </a>
- <a class="link " href="technologies/react.html">
-React
- </a>
- <a class="link " href="technologies/react-native.html">
-React Native
- </a>
- <a class="link " href="technologies/nodejs.html">
-Node.js
- </a>
- </div>
- <div class="links-group">
- <h3 class="heading">Workflow </h3>
- <a class="link " href="workflow/building-mvp.html">
-Startup MVP
- </a>
- <a class="link " href="workflow/agile.html">
-Agile Product Scaling
- </a>
- <a class="link " href="workflow/digital-transformation.html">
-Corporate Digital Transformation
- </a>
- </div>
- </div>
- </div>
- </div>
- <div class="meet-us-footer">
- <h2 class="meet-us-footer__heading">Meet us in </h2>
- <ul class="places">
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/warsaw.html">
- <span>Warsaw </span>, Poland
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/alesund.html">
- <span>Alesund </span>, Norway
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/dubai.html">
- <span>Dubai </span>, UAE
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/vienna.html">
- <span>Vienna </span>, Austria
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/oslo.html">
- <span>Oslo </span>, Norway
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/austin.html">
- <span>Austin </span>, USA
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/berlin.html">
- <span>Berlin </span>, Germany
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/trondheim.html">
- <span>Trondheim </span>, Norway
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/new-york-city.html">
- <span>New York City </span>, USA
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/london.html">
- <span>London </span>, UK
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/stavanger.html">
- <span>Stavanger </span>, Norway
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/san-francisco.html">
- <span>San Francisco </span>, USA
- </a>
- </li>
- <li class="places__item">
- <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
- <a class="places__link" href="development-team/helsinki.html">
- <span>Helsinki </span>, Finland
- </a>
- </li>
- </ul>
- </div>
- <div class="footer-new__details">
- <div class="footer-new__details-left">
- <p class="copyright">Copyright © 2023 </p>
- <div>
- <p class="content">
- <span class="name">Startup Development House sp. _ o.o. </span>
-Aleja Niepodległości 124/23, Warsaw 02-577
- </p>
- <p class="content">
-VAT-ID:  <span>PL5213739631 </span>
-KRS:  <span>0000624654 </span>
-REGON:  <span>364787848 </span>
- </p>
- </div>
- </div>
- <div class="footer-new__details-right">
- <div class="legal-links">
- <a class="legal-links__link" href="privacy-policy.html">Privacy Policy </a>
- <a class="legal-links__link" href="eu-projects.html">EU Projects </a>
- </div>
- <ul class="socials">
- <li class="socials__item">
- <a class="link" href="https://www.linkedin.com/company/start-up-house/" target="_blank" rel="noopener noreferrer">
-   <%= image_tag "linkedin-57474663f4f075a267f731fba0a52029.svg", alt:"Map marker"%>
- </a>
- </li>
- <li class="socials__item">
- <a class="link" href="https://www.facebook.com/startup.development.house" target="_blank" rel="noopener noreferrer">
-   <%= image_tag "fb-c3b3837eaf42ce1fd30182945ba89f87.svg", alt:"Map marker"%>
- </a>
- </li>
- <li class="socials__item">
- <a class="link" href="https://www.instagram.com/hello.startuphouse/" target="_blank" rel="noopener noreferrer">
-   <%= image_tag "instagram-defe33dc4c7d65842aa34ca6d472edb1.svg", alt:"Map marker"%>
- </a>
- </li>
- <li class="socials__item">
- <a class="link" href="https://dribbble.com/sdh" target="_blank" rel="noopener noreferrer">
-   <%= image_tag "dribble-17490eec1846262e7152b711b06d0182.svg", alt:"Map marker"%>
- </a>
- </li>
- <li class="socials__item">
- <a class="link" href="https://github.com/startupdevhouse" target="_blank" rel="noopener noreferrer">
-   <%= image_tag "github-eea68d7de997f179a979782af088c1bb.svg", alt:"Map marker"%>
- </a>
- </li>
- <li class="socials__item">
- <a class="link" href="https://twitter.com/startuphouse_" target="_blank" rel="noopener noreferrer">
-   <%= image_tag "twitter-ae36a1fb19c8a648189a470a4ef314db.svg", alt:"Map marker"%>
- </a>
- </li>
- </ul>
- </div>
- </div>
- <div class="footer-new__last">
- <div class="footer-new__last-logos">
-   <%= image_tag "eu-3b9d128534eb486d6c1e4e5d76b27d51.webp", class:"logo--eu", style: 'height:auto; width:80px;', alt:"Map marker"%>
-   <%= image_tag "eu_logo_2-ea96670341de0f2790df0c6c82a33d96.webp", class:"logo--rop", style: 'height:auto; width:70px;', alt:"Map marker"%>
-   <%= image_tag "poland-a5e5885b14dfd23e804334d3d01c6ee3.webp", class:"logo--poland", style: 'height:auto; width:40px;', alt:"Map marker"%>
-   <%= image_tag "eu-funds-2ca0b2f3a18f0f8301b72db4ca8e675a.png", class:"logo--eu", style: 'height:auto; width:48px;', alt:"Map marker"%>
-
- </div>
- <div class="footer-new__last-rating">
- <p class="rating-stars">
-    <%= image_tag "stars-7e0d0f74b89cc050bf76326f71402005.svg", alt:"Map marker"%>
-4.9 / 5.0
- </p>
- <p class="rating-content">We’ve partnered with over  <span id='projectsNumFooter'>40 </span> companies to execute __ timelines and budgets they ____’_ think were possible. </p>
- </div>
- </div>
- </div>
- </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="meet-us-footer">
+      <h2 class="meet-us-footer__heading">Meet us in </h2>
+      <ul class="places">
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/warsaw.html">
+          <span>Warsaw </span>, Poland
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/alesund.html">
+          <span>Alesund </span>, Norway
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/dubai.html">
+          <span>Dubai </span>, UAE
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/vienna.html">
+          <span>Vienna </span>, Austria
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/oslo.html">
+          <span>Oslo </span>, Norway
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/austin.html">
+          <span>Austin </span>, USA
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/berlin.html">
+          <span>Berlin </span>, Germany
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/trondheim.html">
+          <span>Trondheim </span>, Norway
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/new-york-city.html">
+          <span>New York City </span>, USA
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/london.html">
+          <span>London </span>, UK
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/stavanger.html">
+          <span>Stavanger </span>, Norway
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/san-francisco.html">
+          <span>San Francisco </span>, USA
+          </a>
+        </li>
+        <li class="places__item">
+          <%= image_tag "map_marker-dfae8d2c7d826254a87d26a836ee152b.svg", alt:"Map marker"%>
+          <a class="places__link" href="development-team/helsinki.html">
+          <span>Helsinki </span>, Finland
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-new__details">
+      <div class="footer-new__details-left">
+        <p class="copyright">Copyright © 2023 </p>
+        <div>
+          <p class="content">
+            <span class="name">Startup Development House sp. _ o.o. </span>
+            Aleja Niepodległości 124/23, Warsaw 02-577
+          </p>
+          <p class="content">
+            VAT-ID:  <span>PL5213739631 </span>
+            KRS:  <span>0000624654 </span>
+            REGON:  <span>364787848 </span>
+          </p>
+        </div>
+      </div>
+      <div class="footer-new__details-right">
+        <div class="legal-links">
+          <a class="legal-links__link" href="privacy-policy.html">Privacy Policy </a>
+          <a class="legal-links__link" href="eu-projects.html">EU Projects </a>
+        </div>
+        <ul class="socials">
+          <li class="socials__item">
+            <a class="link" href="https://www.linkedin.com/company/start-up-house/" target="_blank" rel="noopener noreferrer">
+            <%= image_tag "linkedin-57474663f4f075a267f731fba0a52029.svg", alt:"Map marker"%>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="link" href="https://www.facebook.com/startup.development.house" target="_blank" rel="noopener noreferrer">
+            <%= image_tag "fb-c3b3837eaf42ce1fd30182945ba89f87.svg", alt:"Map marker"%>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="link" href="https://www.instagram.com/hello.startuphouse/" target="_blank" rel="noopener noreferrer">
+            <%= image_tag "instagram-defe33dc4c7d65842aa34ca6d472edb1.svg", alt:"Map marker"%>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="link" href="https://dribbble.com/sdh" target="_blank" rel="noopener noreferrer">
+            <%= image_tag "dribble-17490eec1846262e7152b711b06d0182.svg", alt:"Map marker"%>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="link" href="https://github.com/startupdevhouse" target="_blank" rel="noopener noreferrer">
+            <%= image_tag "github-eea68d7de997f179a979782af088c1bb.svg", alt:"Map marker"%>
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="link" href="https://twitter.com/startuphouse_" target="_blank" rel="noopener noreferrer">
+            <%= image_tag "twitter-ae36a1fb19c8a648189a470a4ef314db.svg", alt:"Map marker"%>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-new__last">
+      <div class="footer-new__last-logos">
+        <%= image_tag "eu-3b9d128534eb486d6c1e4e5d76b27d51.webp", class:"logo--eu", style: 'height:auto; width:80px;', alt:"Map marker"%>
+        <%= image_tag "eu_logo_2-ea96670341de0f2790df0c6c82a33d96.webp", class:"logo--rop", style: 'height:auto; width:70px;', alt:"Map marker"%>
+        <%= image_tag "poland-a5e5885b14dfd23e804334d3d01c6ee3.webp", class:"logo--poland", style: 'height:auto; width:40px;', alt:"Map marker"%>
+        <%= image_tag "eu-funds-2ca0b2f3a18f0f8301b72db4ca8e675a.png", class:"logo--eu", style: 'height:auto; width:48px;', alt:"Map marker"%>
+      </div>
+      <div class="footer-new__last-rating">
+        <p class="rating-stars">
+          <%= image_tag "stars-7e0d0f74b89cc050bf76326f71402005.svg", alt:"Map marker"%>
+          4.9 / 5.0
+        </p>
+        <p class="rating-content">We’ve partnered with over  <span id='projectsNumFooter'>40 </span> companies to execute __ timelines and budgets they ____’_ think were possible. </p>
+      </div>
+    </div>
+  </div>
+</footer>
