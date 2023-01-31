@@ -12,4 +12,6 @@ class HomesController < ApplicationController
   def digital_transformation; end
 
   def case_studie; end
+
+  def privacy_policy; end
 end
