@@ -13,5 +13,6 @@ class HomesController < ApplicationController
 
   def case_studie; end
 
+  def product_discovery_process; end
   def privacy_policy; end
 end
