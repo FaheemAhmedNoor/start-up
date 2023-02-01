@@ -18,4 +18,6 @@ Rails.application.routes.draw do
   get 'homes/mobile_development', 'homes#mobile_development'
   get 'homes/user_testing', 'homes#user_testing'
   get 'homes/cloud_application', 'homes#cloud_application'
+  get 'homes/web_development', 'homes#web_development'
+ 
 end
