@@ -21,4 +21,6 @@ class HomesController < ApplicationController
 
   def user_testing; end
 
+  def cloud_application; end
+
 end
