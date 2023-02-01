@@ -18,4 +18,6 @@ class HomesController < ApplicationController
   def privacy_policy; end
 
   def product_design; end
+
+  def mobile_development; end
 end
