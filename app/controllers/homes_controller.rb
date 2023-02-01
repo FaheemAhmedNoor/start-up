@@ -18,4 +18,7 @@ class HomesController < ApplicationController
   def privacy_policy; end
 
   def product_design; end
+
+  def user_testing; end
+
 end
