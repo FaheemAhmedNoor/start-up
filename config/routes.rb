@@ -16,4 +16,6 @@ Rails.application.routes.draw do
   get 'homes/privacy_policy', 'homes#privacy_policy'
   get 'homes/product_design', 'homes#product_design'
   get 'homes/mobile_development', 'homes#mobile_development'
+  get 'homes/user_testing', 'homes#user_testing'
+  get 'homes/cloud_application', 'homes#cloud_application'
 end

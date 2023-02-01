@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 22 Copy 11">
+<rect id="Rectangle Copy 27" opacity="0.2" width="60" height="60" rx="16" fill="#0066FF"/>
+<g id="database">
+<path id="Vector" d="M30 30C37.5939 30 43.75 26.6421 43.75 22.5C43.75 18.3579 37.5939 15 30 15C22.4061 15 16.25 18.3579 16.25 22.5C16.25 26.6421 22.4061 30 30 30Z" stroke="#0066FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M16.25 22.5V30C16.25 34.1421 22.4061 37.5 30 37.5C37.5939 37.5 43.75 34.1421 43.75 30V22.5" stroke="#0066FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M16.25 30V37.5C16.25 41.6421 22.4061 45 30 45C37.5939 45 43.75 41.6421 43.75 37.5V30" stroke="#0066FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -20,4 +20,8 @@ class HomesController < ApplicationController
   def product_design; end
 
   def mobile_development; end
+  def user_testing; end
+
+  def cloud_application; end
+
 end
