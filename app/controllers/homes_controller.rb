@@ -26,4 +26,5 @@ class HomesController < ApplicationController
   
   def web_development; end
 
+  def quality_assurance; end
 end
