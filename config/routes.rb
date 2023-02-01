@@ -19,5 +19,5 @@ Rails.application.routes.draw do
   get 'homes/user_testing', 'homes#user_testing'
   get 'homes/cloud_application', 'homes#cloud_application'
   get 'homes/web_development', 'homes#web_development'
- 
+  get 'homes/scrum_team', 'homes#scrum_team'
 end
