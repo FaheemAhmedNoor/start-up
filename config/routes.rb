@@ -20,4 +20,5 @@ Rails.application.routes.draw do
   get 'homes/cloud_application', 'homes#cloud_application'
   get 'homes/web_development', 'homes#web_development'
   get 'homes/scrum_team', 'homes#scrum_team'
+  get 'homes/quality_assurance', 'homes#quality_assurance'
 end

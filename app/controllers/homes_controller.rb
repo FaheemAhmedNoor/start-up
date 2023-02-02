@@ -29,4 +29,5 @@ class HomesController < ApplicationController
 
   def scrum_team; end
 
+  def quality_assurance; end
 end
