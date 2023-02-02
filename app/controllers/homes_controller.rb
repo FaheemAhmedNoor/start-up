@@ -20,11 +20,14 @@ class HomesController < ApplicationController
   def product_design; end
 
   def mobile_development; end
+
   def user_testing; end
 
   def cloud_application; end
   
   def web_development; end
+
+  def scrum_team; end
 
   def quality_assurance; end
 end
