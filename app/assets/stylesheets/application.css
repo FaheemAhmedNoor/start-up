@@ -14,3 +14,7 @@
  *= require_self
  *= require_custom
  */
+ @font-face {
+    font-family: 'TT commons';
+    src: url('TT Commons Regular.otf');
+ }
