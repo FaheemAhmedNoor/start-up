@@ -1,5 +1,4 @@
 class Blog < ApplicationRecord
-  has_one_attached :image
-
-  # mount_uploader :image, CkeditorPictureUploader
+  has_rich_text :description
+  has_rich_text :test
 end
