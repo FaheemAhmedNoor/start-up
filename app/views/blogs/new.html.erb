@@ -1,0 +1,21 @@
+<div style="margin-top:100px">
+<h3>New Blog</h3>
+
+<%= form_with model: @blog do |form| %>
+  <div>
+    <%= form.label :title %><br>
+  </div>
+  <div>
+    <%= form.rich_text_area :title %>
+  </div>
+
+  <div>
+    <%= form.label :description %><br>
+    <%= form.rich_text_area :description %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+</div>
