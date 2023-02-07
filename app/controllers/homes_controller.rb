@@ -30,4 +30,10 @@ class HomesController < ApplicationController
   def scrum_team; end
 
   def quality_assurance; end
+
+  def mvp; end
+
+  def agile; end
+
+  def digital_transformation; end
 end
