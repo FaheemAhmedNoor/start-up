@@ -63,93 +63,80 @@
   <body class='hide-text'style="overflow-y: visible;">
     <main class="page no-padding" data-controller="page" data-lazy="true" >
 
-      <section class="section workflow-intro-new no-padding" data-target="page.section" data-theme="color" data-bgcolor="#0066FF" color="#ffffff" style="background-color:rgb(0, 102, 255)">
-        <div class="workflow-intro-new__wrapper" >
-          <div class="hero">
-            <h1 class="hero__title" style="color:white;">Building Web3Pandas MVP </h1>
-            <p class="hero__text" style="color:white;">We develop your ideas __ turning them into user-centered ________ ready for market validation. </p>
-          </div>
+     <section class="section workflow-intro-new no-padding" data-target="page.section" data-theme="color" data-bgcolor="#0066FF" color="#ffffff" style="background-color: rgb(0, 102, 255); color: rgb(255, 255, 255);height: 110vh;">
+  <div class="workflow-intro-new__wrapper">
+    <div class="hero">
+      <h2 class="hero__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Our Corporate Digital Transformation process</h2>
+      <p class="hero__text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Gather top talents to guide you in generating ideas, building and testing prototypes, and finally turning them into cloud-based products the agile way.</p>
+    </div>
+  </div>
+  <div class="hero-image" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+  <%= image_tag "hero-395e06f9097fff628bdc05a708090c3a.svg", alt: "Download file", class:"" %>
+    <%# <img src="/packs/media/images/workflow/digital_transformation/hero-b96875405b5a181eee4318dbbdfffb67.svg" alt=""> %>
+  </div>
+</section>
+<section class="section count-with-icons no-padding" data-controller="countWithIconsSection" data-target="page.section" data-theme="lightGray" data-bgcolor="white" data-color="#000000" style="background-color: rgb(247, 248, 250); color: rgb(0, 0, 0);">
+  <div class="section-content">
+    <div class="count-with-icons__wrapper">
+      <div class="count-with-icons__top ">
+        <div class="custom-header custom-header--bigger ">
+          <p class="subheading" data-target="page.loadOnScroll" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Look for a new way to innovate</p>
+          <h2 class="heading" data-target="page.loadOnScroll" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Why should you be interested in digital transformation? </h2>
         </div>
-        <div class="hero-image">
-          <%= image_tag "hero-395e06f9097fff628bdc05a708090c3a.svg", alt: "Download file", class:"lazy-image card__image loaded" %>
-          <%# <img src="../../packs/media/images/workflow/building_mvp/hero-395e06f9097fff628bdc05a708090c3a.svg" alt="" /> %>
-        </div>
-      </section>
-      <section class="section count-with-icons no-padding" data-controller="countWithIconsSection" data-target="page.section" data-theme="lightGray" data-bgcolor="white" data-color="#000000">
-        <div class="section-content">
-          <div class="count-with-icons__wrapper">
-            <div class="count-with-icons__top ">
-              <div class="custom-header custom-header--bigger ">
-                <p class="subheading" data-target="page.loadOnScroll" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Go to the market _____ </p>
-                <h2 class="heading" data-target="page.loadOnScroll" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Why should you start ____ building MVP? </h2>
-              </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
+          <div class="card__header" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <%= image_tag "process-4e46d6b4d61dd183ba8d2934f7dadd49.svg", alt: "Improving internal processes", class:"lazy-image card__image loaded" %>
+            <%# <img class="lazy-image card__image loaded" alt="Improving internal processes" data-src="/packs/media/images/shared/process-4e46d6b4d61dd183ba8d2934f7dadd49.svg" src="/packs/media/images/shared/process-4e46d6b4d61dd183ba8d2934f7dadd49.svg" data-was-processed="true"> %>
+            <div class="title-wrapper">
+              <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">01</p>
+              <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Improving internal processes</h2>
             </div>
-            <div class="content-wrapper">
-              <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
-                <div class="card__header">
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <%= image_tag "mobile-b9c055c46ea363522b5762c368992b83.svg", alt: "Download file", class: "" %>
-                  </div>
-                  <%# <img class="lazy-image card__image" alt="Testing UX and UI of your product" data-src="../../packs/media/images/shared/mobile-b9c055c46ea363522b5762c368992b83.svg" src="building-mvp.html" /> %>
-                  <div class="title-wrapper">
-                    <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">01 </p>
-                    <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Testing UX and UI __ your product </h2>
-                  </div>
-                  <img class="card__chevron" src="../../packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="" />
-                </div>
-                <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Our team understands the __________ of building an engaging _______ from the beginning - ___ that is instinctual and ______ to manage, yet visually _________. All of the products __ develop are tested with _____ to guarantee their highest _______. </p>
-              </div>
-              <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
-                <div class="card__header">
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <%= image_tag "web-befe793a1cece65dc79fd16fac13c84c.svg", alt: "Download file", class: "" %>
-                  </div>
-                  <div class="title-wrapper">
-                    <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">02 </p>
-                    <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Developing monetization strategy </h2>
-                  </div>
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <img class="card__chevron" src="../../packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="" />
-                  </div>
-                </div>
-                <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">There is nothing better ____ data driven development. Building ___ will provide you with _ first version product to _______ your business and let ___ test and develop further ____________ strategy. </p>
-              </div>
-              <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
-                <div class="card__header">
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <%= image_tag "person-acbf934ff520e1e0be75501f94584db7.svg", alt: "Download file", class: "" %>
-                  </div>
-                  <%# <img class="lazy-image card__image" alt="Engaging stakeholders and building community" data-src="../../packs/media/images/shared/person-acbf934ff520e1e0be75501f94584db7.svg" src="building-mvp.html" /> %>
-                  <div class="title-wrapper">
-                    <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">03 </p>
-                    <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Engaging stakeholders and building _________ </h2>
-                  </div>
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <img class="card__chevron" src="../../packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="" />
-                  </div>
-                </div>
-                <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Creating MVP will enable ___ to connect with your _______, better understand their needs ___ the ways they use ___ product to assess your _____ proposition. Ensure stakeholders trust __ validating your idea and _______ the business. </p>
-              </div>
-              <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
-                <div class="card__header">
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <%= image_tag "todo-5689a147c05ba8684ca007283b3e0c69.svg", alt: "Download file", class: "" %>
-                  </div>
-                  <%# <img class="lazy-image card__image" alt="Quick testing of your business concept" data-src="../../packs/media/images/shared/todo-5689a147c05ba8684ca007283b3e0c69.svg" src="building-mvp.html" /> %>
-                  <div class="title-wrapper">
-                    <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">04 </p>
-                    <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Quick testing of your ________ concept </h2>
-                  </div>
-                  <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <img class="card__chevron" src="../../packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="" />
-                  </div>
-                </div>
-                <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Effectively verify your idea - building MVP will help ___ recognize the strengths and __________ of the business concept ___ improve its value proposition __ best fit your clients’ _____. </p>
-              </div>
-            </div>
+            <img class="card__chevron" src="/packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="">
           </div>
+          <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Transform your business activities while looking for more efficient ways to work. Our dedicated team will help you discover processes and models that might be digitalised in order for you to use the full potential of your company.</p>
         </div>
-      </section>
+        <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
+          <div class="card__header" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <%= image_tag "costs-34667db3befb9bcaf24ea3b0d5c935cf.svg", alt: "Lower costs", class:"lazy-image card__image loaded" %>
+            <%# <img class="lazy-image card__image loaded" alt="Lower costs" data-src="/packs/media/images/shared/costs-34667db3befb9bcaf24ea3b0d5c935cf.svg" src="/packs/media/images/shared/costs-34667db3befb9bcaf24ea3b0d5c935cf.svg" data-was-processed="true"> %>
+            <div class="title-wrapper">
+              <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">02</p>
+              <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Lower costs</h2>
+            </div>
+            <img class="card__chevron" src="/packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="">
+          </div>
+          <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Optimization of certain processes - effective internal management, clear finances, improved communication and other - due to digital transformation can result in decrease in spending. Start now and lose costs along the way.</p>
+        </div>
+        <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
+          <div class="card__header" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <%= image_tag "revenues-34241c1089e62224d2ed0314b44b3ef2.svg", alt: "Increased revenues", class:"lazy-image card__image loaded" %>
+            <%# <img class="lazy-image card__image loaded" alt="Increased revenues" data-src="/packs/media/images/shared/revenues-34241c1089e62224d2ed0314b44b3ef2.svg" src="/packs/media/images/shared/revenues-34241c1089e62224d2ed0314b44b3ef2.svg" data-was-processed="true"> %>
+            <div class="title-wrapper">
+              <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">03</p>
+              <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Increased revenues</h2>
+            </div>
+            <img class="card__chevron" src="/packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="">
+          </div>
+          <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Discover new ways to maximize the profitability of the company. Digitalization minimizes risk and secures your business to give you space to innovate and implement new ideas.</p>
+        </div>
+        <div class="card card-- card--" data-target="page.loadOnScroll countWithIconsSection.card" data-action="click->countWithIconsSection#onCardClickHandler">
+          <div class="card__header" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <%= image_tag "opportunities-266afc4d925d1ab8ec461cc21fc43d74.svg", alt: "Discover new monetization opportunities", class:"lazy-image card__image loaded" %>
+            <%# <img class="lazy-image card__image loaded" alt="Discover new monetization opportunities" data-src="/packs/media/images/shared/opportunities-266afc4d925d1ab8ec461cc21fc43d74.svg" src="/packs/media/images/shared/opportunities-266afc4d925d1ab8ec461cc21fc43d74.svg" data-was-processed="true"> %>
+            <div class="title-wrapper">
+              <p class="card__index" data-aos="fade-up" data-aos-anchor-placement="top-bottom">04</p>
+              <h2 class="card__title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Discover new monetization opportunities</h2>
+            </div>
+            <img class="card__chevron" src="/packs/media/images/shared/chevron-down-black-b634dd0f74d1683a24b643db9fb3b854.svg" alt="">
+          </div>
+          <p class="card__content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Redesign your business model and take advantage of new opportunities to stay ahead of the competition and satisfy your customers’ needs. Innovate to diversify your business.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <section class="section step-by-step no-padding" data-target="page.section" data-theme="white">
         <div class="section-content">
           <div class="step-by-step__wrapper">
