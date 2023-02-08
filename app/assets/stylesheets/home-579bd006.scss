@@ -1893,7 +1893,7 @@
 }
 
 .tech-stack .technology-card__list li {
-    list-style-image: asset-url("checkmark-8dad809d8071a88cfacef8d7cce0125e.svg");
+    // list-style-image: url(/app/assets/images/checkmark-8dad809d8071a88cfacef8d7cce0125e.svg);
     font-size: 18px;
     color: #8b9097;
     font-weight: 400
@@ -2919,7 +2919,7 @@
 }
 
 .how-we-can-help .content-list li {
-    list-style-image: asset-url("checkmark_blue.svg");
+    // list-style-image: asset-url("checkmark_blue.svg");
     margin: 10px 0;
     font-size: 18px;
     color: #c0c4c9;
