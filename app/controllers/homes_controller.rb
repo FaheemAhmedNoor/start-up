@@ -36,4 +36,5 @@ class HomesController < ApplicationController
   def agile; end
 
   def digital_transformation; end
+  def rapid_mvp; end
 end
