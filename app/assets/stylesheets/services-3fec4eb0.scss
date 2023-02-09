@@ -862,7 +862,7 @@
   }
   .services-how__tiles-wrapper {
     position: relative;
-    background-image: url(/packs/media/images/services/hire/mobile-arrow-8bb722504566d6ad5dcb03ffc33d9867.svg);
+    // background-image: url(/packs/media/images/services/hire/mobile-arrow-8bb722504566d6ad5dcb03ffc33d9867.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 10.5vw;
@@ -871,7 +871,7 @@
   @media (min-width: 768px) {
     .services-how__tiles-wrapper {
       display: flex;
-      background-image: url(/packs/media/images/services/hire/arrow-78e24bbe1d1cb11d1aa0676d10170796.svg);
+      // background-image: url(/packs/media/images/services/hire/arrow-78e24bbe1d1cb11d1aa0676d10170796.svg);
       background-size: 200px 1148px;
       padding-top: 100px;
       background-position: center 20px;
@@ -2138,7 +2138,7 @@
   }
   .services-list .list {
     margin: 0;
-    list-style-image: url(/packs/media/images/shared/list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg);
+    // list-style-image: url(/packs/media/images/shared/list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg);
   }
   @media (min-width: 1200px) {
     .services-list .list {
@@ -2402,7 +2402,7 @@
   }
   .vertical-image-and-text .list {
     margin: 60px 0 40px;
-    list-style-image:asset-url("list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg");
+    // list-style-image:asset-url("list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg");
   }
   .vertical-image-and-text .list__item {
     font-size: 1.44rem;
@@ -2579,8 +2579,8 @@
       right: 0;
       width: 20px;
       height: 12px;
-      background: url(/packs/media/images/shared/chevron-down-white-9836d0b684a2b09a5a179105f24f1d1b.svg)
-        50% calc(100% + 2px) / 100% no-repeat;
+      // background: url(/packs/media/images/shared/chevron-down-white-9836d0b684a2b09a5a179105f24f1d1b.svg)
+      //   50% calc(100% + 2px) / 100% no-repeat;
       transition: all 0.15s ease-in-out;
     }
   }
@@ -2633,8 +2633,8 @@
     left: -11px;
     width: 20px;
     height: 32px;
-    background: url(/packs/media/images/shared/chevron-down-white-9836d0b684a2b09a5a179105f24f1d1b.svg)
-      50% calc(100% + 2px) / 100% no-repeat;
+    // background: url(/packs/media/images/shared/chevron-down-white-9836d0b684a2b09a5a179105f24f1d1b.svg)
+    //   50% calc(100% + 2px) / 100% no-repeat;
   }
   .accordion-stepper .row__header {
     width: 100%;
@@ -4202,7 +4202,7 @@
   }
   .dev-practices .list {
     margin: 0;
-    list-style-image: url(/packs/media/images/shared/list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg);
+    // list-style-image: url(/packs/media/images/shared/list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg);
   }
   @media (min-width: 1200px) {
     .dev-practices .list {
@@ -4326,7 +4326,7 @@
     }
   }
   .application-types .card__list {
-    list-style-image: url(/packs/media/images/shared/arrow-right-dark-244ae55b7a7efba856f7fbff4099a083.svg);
+    // list-style-image: url(/packs/media/images/shared/arrow-right-dark-244ae55b7a7efba856f7fbff4099a083.svg);
     margin: 0;
   }
   .application-types .card__list-item {
@@ -5437,7 +5437,7 @@
   }
   .why-need-qa .content__list {
     margin-top: 30px;
-    list-style-image: asset-url("list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg");
+    // list-style-image: asset-url("list-item-arrow-ee25179a4d9c8d521e1554f19a5bcb85.svg");
   }
   .why-need-qa .content__list-item {
     font-size: 1.333rem;
@@ -5916,7 +5916,7 @@
   .page .lets-talk .form__input:-webkit-autofill:active,
   .page .lets-talk .form__input:-webkit-autofill:focus,
   .page .lets-talk .form__input:-webkit-autofill:hover {
-    -webkit-box-shadow: 0 0 0 30px #040015 inset !important;
+    
     -webkit-text-fill-color: #fff !important;
   }
   .page .lets-talk .form__bottom-row {
@@ -5985,7 +5985,7 @@
   .page .lets-talk .form--white .form__input:-webkit-autofill:active,
   .page .lets-talk .form--white .form__input:-webkit-autofill:focus,
   .page .lets-talk .form--white .form__input:-webkit-autofill:hover {
-    -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+   
     -webkit-text-fill-color: #000 !important;
   }
   .cloud-software-dev .lets-talk,
