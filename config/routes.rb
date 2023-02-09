@@ -23,4 +23,10 @@ Rails.application.routes.draw do
   get 'homes/web_development', 'homes#web_development'
   get 'homes/scrum_team', 'homes#scrum_team'
   get 'homes/quality_assurance', 'homes#quality_assurance'
+  get 'homes/react', 'homes#react '
+  get 'homes/rapid_mvp', 'homes# rapid_mvp'
+  get 'homes/no_code', 'homes# no_code'
+
+
+
 end
