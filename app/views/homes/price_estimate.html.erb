@@ -13,8 +13,8 @@
       <meta property="og:type" content="website" />
       <meta name="twitter:title" content="Price Estimate | Web3Pandas Development House" />
       <meta name="twitter:description" content="Let's value your project. Fill the form with your details, let us contact you, and we can start discussing your project." />
-      <link rel="canonical" href="price-estimate.html" />
-      <meta content='price-estimate.html' property='og:url' />
+      <%# <link rel="canonical" href="price-estimate.html" /> %>
+      <%# <meta content='price-estimate.html' property='og:url' /> %>
       <meta content='../packs/media/images/home/social-9d33b0049994fa24af632c1eecaee778.png' property='og:image' />
       <meta content='p3t2wyxstwqjp7brvk2hor4l0hy5gl' name='facebook-domain-verification' />
       <meta content='https://start-up.house/packs/media/images/home/social-9d33b0049994fa24af632c1eecaee778.png' name='twitter:image' />
@@ -38,13 +38,13 @@
            }, 1000);
          }());
       </script>
-      <link as='script' href='../packs/js/application-6becb475089ae8181a99.js' rel='preload' />
-      <link as='style' href='../packs/css/shared-ba9ccc9b.css' rel='preload' />
-      <link as='font' crossorigin="" href='../webfonts/39D11E_0_0.woff2' rel='prefetch' type='font/woff2' />
-      <link as='font' crossorigin="" href='../webfonts/39D11E_1_0.woff2' rel='prefetch' type='font/woff2' />
-      <link as='font' crossorigin="" href='../webfonts/39D11E_2_0.woff2' rel='prefetch' type='font/woff2' />
+      <%# <link as='script' href='../packs/js/application-6becb475089ae8181a99.js' rel='preload' /> %>
+      <%# <link as='style' href='app/assets/stylesheets/shared-ba9ccc9b.css' rel='preload' /> %>
+      <%# <link as='font' crossorigin="" href='../webfonts/39D11E_0_0.woff2' rel='prefetch' type='font/woff2' /> %>
+      <%# <link as='font' crossorigin="" href='../webfonts/39D11E_1_0.woff2' rel='prefetch' type='font/woff2' /> %>
+      <%# <link as='font' crossorigin="" href='../webfonts/39D11E_2_0.woff2' rel='prefetch' type='font/woff2' /> %>
       <style>
-         @import url(//hello.myfonts.net/count/39d11e);@font-face{font-family:TTCommons-Light;src:url(../webfonts/39D11E_0_0.woff2) format('woff2');font-display:swap}@font-face{font-family:TTCommons-Regular;src:url(../webfonts/39D11E_1_0.woff2) format('woff2');font-display:swap}@font-face{font-family:TTCommons-DemiBold;src:url(../webfonts/39D11E_2_0.woff2) format('woff2');font-display:swap}
+         /* @import url(//hello.myfonts.net/count/39d11e);@font-face{font-family:TTCommons-Light;src:url(../webfonts/39D11E_0_0.woff2) format('woff2');font-display:swap}@font-face{font-family:TTCommons-Regular;src:url(../webfonts/39D11E_1_0.woff2) format('woff2');font-display:swap}@font-face{font-family:TTCommons-DemiBold;src:url(../webfonts/39D11E_2_0.woff2) format('woff2');font-display:swap} */
       </style>
       <script>
          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -56,12 +56,12 @@
       <meta name="csrf-param" content="authenticity_token" />
       <meta name="csrf-token" content="BvY4k5bjrmUOfNUSjq3U9nXoMX4irf0bZc07flrdY1U4FqQkSCqQ/WSRpS6of6tqJFuxstpQ3Mjiz5TXGtIrtQ==" />
       <script src="../packs/js/polyfills-62c6ec78440784c67b14.js" nomodule="true"></script>
-      <script src="../packs/js/application-6becb475089ae8181a99.js"></script>
-      <link rel="stylesheet" media="all" href="../packs/css/shared-ba9ccc9b.css" />
-      <link rel="stylesheet" media="all" href="../packs/css/value_project-d3c0f25a.css" />
-      <script src="../packs/js/value_project-9fd9a5095f55a3f22913.js" defer="defer"></script>
-      <script src='../../js.hcaptcha.com/1/api.js'></script>
-      <script src='../../assets.calendly.com/assets/external/widget.js' type='text/javascript'></script>
+      <%# <script src="../packs/js/application-6becb475089ae8181a99.js"></script> %>
+      <%# <link rel="stylesheet" media="all" href='app/assets/stylesheets/shared-ba9ccc9b.css' /> %>
+      <%# <link rel="stylesheet" media="all" href="../packs/css/value_project-d3c0f25a.css" /> %>
+      <%# <script src="../packs/js/value_project-9fd9a5095f55a3f22913.js" defer="defer"></script> %>
+      <%# <script src='../../js.hcaptcha.com/1/api.js'></script> %>
+      <%# <script src='../../assets.calendly.com/assets/external/widget.js' type='text/javascript'></script> %>
    </head>
    <body class='hide-text'>
 
@@ -1791,10 +1791,7 @@
                      </div>
                   </button>
                   <picture>
-                     <source srcset="../packs/media/images/lead_magnet/ebook-mockup-0a0b06048bd2e4853da1e8bd1b5b0f85.webp" type="image/webp">
-                     <source srcset="../packs/media/images/lead_magnet/ebook-mockup-9cb4257f96366500c68125886283d4ff.png" type="image/png">
-                     <img style="width:416;height:566" alt="Ebook cover mockup" src="../packs/media/images/lead_magnet/ebook-mockup-9cb4257f96366500c68125886283d4ff.png" />
-                     </source></source>
+                     <%= image_tag "ebook-mockup-9cb4257f96366500c68125886283d4ff.png", alt: "Ebook cover mockup" , style:"width:416;height:566" %>
                   </picture>
                </div>
                <div class="col-xs-24 col-md-13 modal__contents modal__contents--left" id="modal-1-content">
@@ -1802,7 +1799,8 @@
                      <div class="loader-5 center"><span></span></div>
                   </div>
                   <div class="modal__logo hidden-md-down">
-                     <img data-target="page.headerLogo" alt="Web3Pandas Development House" src="../packs/media/images/home/logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg" />
+                     <%= image_tag "logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg",alt:"Startup Development House" %>
+                     <%# <img data-target="page.headerLogo" alt="Web3Pandas Development House" src="../packs/media/images/home/logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg" /> %>
                   </div>
                   <div class="modal__info" data-target="lead_magnet.info">
                      <h2 class="modal__title" id="modal-1-title">Get the guidance adjusted __ your startups’ needs </h2>
@@ -1891,7 +1889,8 @@
                         </div>
                      </div>
                      <div class="error-message invisible">
-                        <img style="width:20;height:20" class="error-message-icon" alt="" src="../packs/media/images/lead_magnet/error-87fc2677d45527aac8691f55364a3e36.svg" />
+                      <%= image_tag "error-87fc2677d45527aac8691f55364a3e36.svg", alt: "" , style:"width:20;height:20" ,class:"error-message-icon"%>
+                        <%# <img style="width:20;height:20" class="error-message-icon" alt="" src="../packs/media/images/lead_magnet/error-87fc2677d45527aac8691f55364a3e36.svg" /> %>
                         <span class="error-message-text">
                         Please fill all required ______
                         </span>

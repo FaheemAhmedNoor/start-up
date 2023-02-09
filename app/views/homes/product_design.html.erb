@@ -403,9 +403,7 @@
               </div>
             </button>
             <picture>
-              <source srcset="/packs/media/images/lead_magnet/ebook-mockup-0a0b06048bd2e4853da1e8bd1b5b0f85.webp" type="image/webp">
-              <source srcset="/packs/media/images/lead_magnet/ebook-mockup-9cb4257f96366500c68125886283d4ff.png" type="image/png">
-              <img style="width:416;height:566" alt="Ebook cover mockup" src="/packs/media/images/lead_magnet/ebook-mockup-9cb4257f96366500c68125886283d4ff.png">
+            
             </picture>
           </div>
           <div class="col-xs-24 col-md-13 modal__contents modal__contents--left" id="modal-1-content">
@@ -413,7 +411,8 @@
               <div class="loader-5 center"><span></span></div>
             </div>
             <div class="modal__logo hidden-md-down">
-              <img data-target="page.headerLogo" alt="Startup Development House" src="/packs/media/images/home/logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg">
+               <%= image_tag "logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg",alt:"Startup Development House" %>
+              <%# <img data-target="page.headerLogo" alt="Startup Development House" src="/packs/media/images/home/logo-lightbg-4f1a397101dea4defb8d18e275203d56.svg"> %>
             </div>
             <div class="modal__info" data-target="lead_magnet.info">
               <h2 class="modal__title" id="modal-1-title">Get the guidance adjusted to your startups’ needs</h2>
@@ -536,7 +535,8 @@
                 </div>
               </div>
               <div class="error-message invisible">
-                <img style="width:20;height:20" class="error-message-icon" alt="" src="/packs/media/images/lead_magnet/error-87fc2677d45527aac8691f55364a3e36.svg">
+               <%= image_tag "error-87fc2677d45527aac8691f55364a3e36.svg", alt: "" , style:"width:20;height:20" ,class:"error-message-icon"%>
+                <%# <img style="width:20;height:20" class="error-message-icon" alt="" src="/packs/media/images/lead_magnet/error-87fc2677d45527aac8691f55364a3e36.svg"> %>
                 <span class="error-message-text">
                 Please fill all required fields
                 </span>
